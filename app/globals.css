@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Light.otf');
+  font-display: swap;
+}
+
+body {
+  font-family: 'ClashDisplay', sans-serif !important;
+}
+
+
+
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Medium.otf');
+    font-display: swap;
+  }
+
+  .profile-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 48px;
+    background: white
+    rounded-md
+    shadow-lg
+    z-10;
+    transform: translateY(-10px); /* Move menu down slightly */
+}
+  
